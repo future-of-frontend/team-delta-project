@@ -1,0 +1,35 @@
+.footer {
+  background: url(../img/BG.png);
+  min-height: 247px;
+  display: flex;
+  align-items: center;
+
+  &__text {
+    font-family: "Lato", sans-serif;
+    font-weight: 300, 700;
+    font-size: 50px;
+    line-height: 60px;
+    font-style: normal;
+    color: #ffff;
+    margin-right: 30px;
+    margin-left: 200px;
+  }
+  &__button {
+    background: #ffff;
+    color: rgba(54, 149, 255, 1);
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    line-height: 19px;
+    font-style: normal;
+    min-width: 150px;
+    min-height: 45px;
+    border-radius: 25px;
+    border-style: none;
+  }
+  .button:hover {
+    background: rgba(225, 239, 255, 1);
+  }
+  .button:active {
+    background: rgba(203, 228, 255, 1);
+  }
+}
