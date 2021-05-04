@@ -1,0 +1,17 @@
+.works {
+  min-height: 1108px;
+  background: #ffffff;
+
+  &__title {
+    text-align: center;
+    position: relative;
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    color: rgba(86, 86, 86, 1);
+    font-style: normal;
+    font-size: 50px;
+    line-height: 60px;
+    padding-top: 83px;
+    padding-bottom: 91px;
+  }
+}
