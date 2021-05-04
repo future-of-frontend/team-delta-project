@@ -1,0 +1,30 @@
+.about {
+  min-height: 348px;
+  background: #ffffff;
+
+  &__title {
+    text-align: center;
+    position: relative;
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    color: rgba(86, 86, 86, 1);
+    font-style: normal;
+    font-size: 50px;
+    line-height: 60px;
+    margin-top: 80px;
+    margin-bottom: 32px;
+  }
+
+  &__text {
+    width: 1047px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    color: rgba(86, 86, 86, 1);
+    font-style: normal;
+    font-size: 16px;
+    line-height: 32px;
+    margin-bottom: 80px;
+  }
+}
