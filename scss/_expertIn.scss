@@ -1,0 +1,50 @@
+.expert {
+  min-height: 1080px;
+  background: rgba(249, 249, 249, 1);
+
+  .list__img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(51deg, #3595ff 2.94%, #3564fc 140.18%);
+    width: 144px;
+    height: 144px;
+    border-radius: 50%;
+    margin: 80px auto;
+  }
+
+  .list__title {
+    margin: 0px auto;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 24px;
+    text-align: center;
+    color: rgba(86, 86, 86, 1);
+  }
+
+  .list__text {
+    padding-top: 20px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: center;
+    color: rgba(90, 90, 90, 1);
+    margin: auto 30px;
+  }
+
+  .title {
+    margin: 0px auto;
+    padding-top: 80px;
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 50px;
+    line-height: 60px;
+    text-align: center;
+    color: rgba(86, 86, 86, 1);
+  }
+}

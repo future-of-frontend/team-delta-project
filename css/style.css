@@ -9579,6 +9579,63 @@ template {
   margin-bottom: 80px;
 }
 
+.expert {
+  min-height: 1080px;
+  background: #f9f9f9;
+}
+
+.expert .list__img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: linear-gradient(51deg, #3595ff 2.94%, #3564fc 140.18%);
+  width: 144px;
+  height: 144px;
+  border-radius: 50%;
+  margin: 80px auto;
+}
+
+.expert .list__title {
+  margin: 0px auto;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 24px;
+  text-align: center;
+  color: #565656;
+}
+
+.expert .list__text {
+  padding-top: 20px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 32px;
+  text-align: center;
+  color: #5a5a5a;
+  margin: auto 30px;
+}
+
+.expert .title {
+  margin: 0px auto;
+  padding-top: 80px;
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 50px;
+  line-height: 60px;
+  text-align: center;
+  color: #565656;
+}
+
 .works {
   min-height: 1108px;
   background: #ffffff;
