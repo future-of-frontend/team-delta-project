@@ -9690,7 +9690,8 @@ template {
 }
 
 .footer {
-  background: url(../img/BG.png);
+  background: url(../img/BG.png) center center no-repeat;
+  background-size: cover;
   min-height: 247px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -9730,6 +9731,13 @@ template {
 
 .footer .button:active {
   background: #cbe4ff;
+}
+
+.header {
+  height: 872px;
+  width: 100%;
+  background: url(../img/Background.jpg) center center no-repeat;
+  background-size: cover;
 }
 
 .header__burger__align {
