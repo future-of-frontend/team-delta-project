@@ -9608,14 +9608,80 @@ template {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  margin-top: 53px;
 }
 
 .top__img {
-  height: 147px;
-  width: 147px;
-  border-radius: 0px;
+  height: 146px;
+  width: 146px;
+  background: url(../img/guy.png) center center no-repeat;
+  border-radius: 50%;
+  -webkit-box-shadow: 0px 0px 0px 8px rgba(255, 255, 255, 0.09), 0px 0px 0px 19px rgba(255, 255, 255, 0.06);
+          box-shadow: 0px 0px 0px 8px rgba(255, 255, 255, 0.09), 0px 0px 0px 19px rgba(255, 255, 255, 0.06);
+}
+
+.top__title {
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 56px;
+  letter-spacing: 0.025em;
+  text-transform: uppercase;
+  text-align: center;
+  display: block;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 40px 0 0;
+}
+
+.top__subtitle {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.top__button {
+  margin-top: 40px;
+}
+
+.button {
+  background: #ffff;
+  color: #3695ff;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  line-height: 19px;
+  font-style: normal;
+  width: 150px;
+  height: 45px;
+  border-radius: 25px;
+  border-style: none;
+}
+
+.button:hover {
+  background: #e1efff;
+}
+
+.button:active {
+  background: #cbe4ff;
+}
+
+.top__arrow {
+  display: block;
+  height: 36px;
+  width: 21px;
+  background: url(../img/Arrow.svg) center center no-repeat;
+  margin-top: 102px;
+}
+
+.top__arrow:hover {
+  opacity: 0.6;
 }
 /*# sourceMappingURL=style.css.map */
